@@ -2,7 +2,6 @@
   "name": "aspectratio",
   "version": "1.0.0",
   "description": "Aspect Ratio Calculator - Free online tool for calculating and maintaining image & video aspect ratios",
-  "main": "index.html",
   "scripts": {
     "build": "parcel build src/index.html src/pages/*.html --public-url ./",
     "dev": "parcel src/index.html src/pages/*.html",
