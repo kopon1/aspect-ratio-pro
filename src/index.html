@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Essential Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Aspect Ratio Calculator | Free Online Tool for Image & Video Ratios</title>
+    <meta name="description" content="Free online aspect ratio calculator. Calculate dimensions, maintain proportions for images & videos. Perfect for photographers, designers & developers. Easy to use!">
+    <meta name="keywords" content="aspect ratio calculator, image ratio calculator, video aspect ratio, photo dimensions, screen resolution calculator, 16:9 ratio, 4:3 ratio, pixel calculator">
+    <meta name="author" content="AspectRatio Pro">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aspectratiopro.com/">
+    <meta property="og:title" content="Aspect Ratio Calculator | Free Online Tool">
+    <meta property="og:description" content="Calculate perfect image and video dimensions while maintaining aspect ratio. Free online calculator for photographers and designers.">
+    <meta property="og:image" content="https://aspectratiopro.com/images/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://aspectratiopro.com/">
+    <meta property="twitter:title" content="Aspect Ratio Calculator | Free Online Tool">
+    <meta property="twitter:description" content="Calculate perfect image and video dimensions while maintaining aspect ratio. Free online calculator for photographers and designers.">
+    <meta property="twitter:image" content="https://aspectratiopro.com/images/twitter-card.png">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://aspectratiopro.com/">
+
+    <!-- Preconnect to External Resources -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Aspect Ratio Calculator",
+        "url": "https://aspectratiopro.com",
+        "description": "Free online aspect ratio calculator for images and videos. Calculate dimensions while maintaining proportions.",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "Any",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "creator": {
+            "@type": "Organization",
+            "name": "AspectRatio Pro",
+            "email": "aspectratiopro@gmail.com"
+        }
+    }
+    </script>
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_PUBLISHER_ID"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <i class="fas fa-crop-alt"></i>
+                <span>AspectRatio Pro</span>
+            </div>
+            <div class="nav-links">
+                <a href="#calculator-section" class="nav-link active">Calculator</a>
+                <a href="#guide-section" class="nav-link">Guide</a>
+                <a href="#ratios-section" class="nav-link">Common Ratios</a>
+                <a href="#tools-section" class="nav-link">Tools</a>
+            </div>
+            <div class="nav-controls">
+                <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Calculator Section -->
+        <section id="calculator-section" class="content-section">
+            <div class="theme-toggle">
+                <button id="themeToggle"><i class="fas fa-moon"></i></button>
+            </div>
+
+            <h1>Aspect Ratio Calculator</h1>
+
+            <div class="container">
+                <!-- Left Side Ad -->
+                <div class="ad-container ad-sidebar ad-left">
+                    <div id="leftAd" class="ad-slot">
+                        <!-- AdSense code will go here -->
+                    </div>
+                </div>
+
+                <!-- Right Side Ad -->
+                <div class="ad-container ad-sidebar ad-right">
+                    <div id="rightAd" class="ad-slot">
+                        <!-- AdSense code will go here -->
+                    </div>
+                </div>
+
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="calculator">Calculator</button>
+                    <button class="tab-btn" data-tab="guide">Guide</button>
+                    <button class="tab-btn" data-tab="common-ratios">Common Ratios</button>
+                </div>
+
+                <div class="tab-content" id="calculator">
+                    <div class="input-group">
+                        <div class="dimension-input">
+        <label for="width">Width:</label>
+                            <div class="input-with-unit">
+        <input type="number" id="width" placeholder="Enter width">
+                                <select id="widthUnit">
+                                    <option value="px">px</option>
+                                    <option value="%">%</option>
+                                    <option value="em">em</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="dimension-input">
+        <label for="height">Height:</label>
+                            <div class="input-with-unit">
+        <input type="number" id="height" placeholder="Enter height">
+                                <select id="heightUnit">
+                                    <option value="px">px</option>
+                                    <option value="%">%</option>
+                                    <option value="em">em</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="controls">
+                        <button id="lockRatio" class="toggle-button" title="Lock/Unlock aspect ratio">
+                            <i class="fas fa-lock-open"></i> Lock Ratio
+                        </button>
+                        <button id="swapDimensions" title="Swap width and height">
+                            <i class="fas fa-exchange-alt"></i> Swap
+                        </button>
+                        <button id="resetValues" title="Reset all values">
+                            <i class="fas fa-undo"></i> Reset
+                        </button>
+                    </div>
+
+                    <div class="presets">
+                        <h3>Common Ratios:</h3>
+                        <div class="preset-grid">
+                            <button class="preset" data-ratio="16:9" title="Widescreen TV, YouTube">16:9</button>
+                            <button class="preset" data-ratio="4:3" title="Traditional TV">4:3</button>
+                            <button class="preset" data-ratio="1:1" title="Square">1:1</button>
+                            <button class="preset" data-ratio="21:9" title="Ultrawide">21:9</button>
+                            <button class="preset" data-ratio="3:2" title="Classic Photography">3:2</button>
+                            <button class="preset" data-ratio="9:16" title="Mobile Portrait">9:16</button>
+                        </div>
+                        
+                        <div class="custom-ratio">
+                            <h3>Custom Ratio:</h3>
+                            <div class="custom-ratio-inputs">
+                                <input type="number" id="customWidth" placeholder="Width" min="1">
+                                <span>:</span>
+                                <input type="number" id="customHeight" placeholder="Height" min="1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="preview-container">
+                        <h3>Visual Preview</h3>
+                        <div id="aspectPreview" class="aspect-preview"></div>
+                    </div>
+
+                    <div class="result-container">
+                        <div class="result-box">
+                            <p id="result">Aspect Ratio: -</p>
+                            <p id="simplified">Simplified: -</p>
+                            <p id="decimal">Decimal: -</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content hidden" id="guide">
+                    <div class="info-section">
+                        <h2>What is Aspect Ratio?</h2>
+                        <p>Aspect ratio is the proportional relationship between the width and height of an image or screen. It's typically expressed as two numbers separated by a colon (e.g., 16:9).</p>
+                        
+                        <div class="info-card">
+                            <h3>Understanding Aspect Ratio</h3>
+                            <p>For example, a 16:9 aspect ratio means:</p>
+                            <ul>
+                                <li>For every 16 units of width, there are 9 units of height</li>
+                                <li>Common resolutions include: 1920×1080, 1280×720, 3840×2160</li>
+                                <li>Most modern displays and video content use this ratio</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>Why Aspect Ratio Matters</h3>
+                            <ul>
+                                <li><strong>Photography:</strong> Affects composition and print sizes</li>
+                                <li><strong>Video Production:</strong> Determines how content will display on different screens</li>
+                                <li><strong>Web Design:</strong> Crucial for responsive images and layouts</li>
+                                <li><strong>Gaming:</strong> Impacts field of view and display compatibility</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>How to Calculate Aspect Ratio</h3>
+                            <ol>
+                                <li>Start with the width and height measurements</li>
+                                <li>Divide both numbers by their greatest common divisor (GCD)</li>
+                                <li>The resulting numbers form your aspect ratio</li>
+                            </ol>
+                            <div class="example-box">
+                                <p><strong>Example:</strong> 1920×1080</p>
+                                <p>GCD of 1920 and 1080 is 120</p>
+                                <p>1920 ÷ 120 = 16</p>
+                                <p>1080 ÷ 120 = 9</p>
+                                <p>Therefore, the aspect ratio is 16:9</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content hidden" id="common-ratios">
+                    <div class="ratio-grid">
+                        <div class="ratio-card">
+                            <h3>16:9 (1.78:1)</h3>
+                            <div class="ratio-preview ratio-16-9"></div>
+                            <h4>Widescreen HD</h4>
+                            <ul>
+                                <li>Modern HD TVs</li>
+                                <li>YouTube videos</li>
+                                <li>Common resolutions:</li>
+                                <li>1920×1080 (Full HD)</li>
+                                <li>3840×2160 (4K)</li>
+                            </ul>
+                        </div>
+
+                        <div class="ratio-card">
+                            <h3>4:3 (1.33:1)</h3>
+                            <div class="ratio-preview ratio-4-3"></div>
+                            <h4>Traditional</h4>
+                            <ul>
+                                <li>Classic TV format</li>
+                                <li>Early computer monitors</li>
+                                <li>Common resolutions:</li>
+                                <li>800×600</li>
+                                <li>1024×768</li>
+                            </ul>
+                        </div>
+
+                        <div class="ratio-card">
+                            <h3>21:9 (2.35:1)</h3>
+                            <div class="ratio-preview ratio-21-9"></div>
+                            <h4>Ultrawide</h4>
+                            <ul>
+                                <li>Cinematic format</li>
+                                <li>Ultrawide monitors</li>
+                                <li>Common resolutions:</li>
+                                <li>2560×1080</li>
+                                <li>3440×1440</li>
+                            </ul>
+                        </div>
+
+                        <div class="ratio-card">
+                            <h3>1:1 (1:1)</h3>
+                            <div class="ratio-preview ratio-1-1"></div>
+                            <h4>Square</h4>
+                            <ul>
+                                <li>Social media profiles</li>
+                                <li>Instagram posts</li>
+                                <li>Common sizes:</li>
+                                <li>1080×1080</li>
+                                <li>800×800</li>
+                            </ul>
+                        </div>
+
+                        <div class="ratio-card">
+                            <h3>3:2 (1.5:1)</h3>
+                            <div class="ratio-preview ratio-3-2"></div>
+                            <h4>Photography</h4>
+                            <ul>
+                                <li>DSLR cameras</li>
+                                <li>35mm film</li>
+                                <li>Common resolutions:</li>
+                                <li>3000×2000</li>
+                                <li>6000×4000</li>
+                            </ul>
+                        </div>
+
+                        <div class="ratio-card">
+                            <h3>9:16 (0.5625:1)</h3>
+                            <div class="ratio-preview ratio-9-16"></div>
+                            <h4>Mobile Video</h4>
+                            <ul>
+                                <li>Instagram Stories</li>
+                                <li>TikTok videos</li>
+                                <li>Common resolutions:</li>
+                                <li>1080×1920</li>
+                                <li>720×1280</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Ad (outside container) -->
+            <div class="ad-container ad-bottom">
+                <div id="bottomAd" class="ad-slot">
+                    <!-- AdSense code will go here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Guide Section -->
+        <section id="guide-section" class="content-section hidden">
+            <div class="guide-container">
+                <h2>Understanding Aspect Ratios</h2>
+                <div class="info-section">
+                    <h2>What is Aspect Ratio?</h2>
+                    <p>Aspect ratio is the proportional relationship between the width and height of an image or screen. It's typically expressed as two numbers separated by a colon (e.g., 16:9).</p>
+                    
+                    <div class="info-card">
+                        <h3>Understanding Aspect Ratio</h3>
+                        <p>For example, a 16:9 aspect ratio means:</p>
+                        <ul>
+                            <li>For every 16 units of width, there are 9 units of height</li>
+                            <li>Common resolutions include: 1920×1080, 1280×720, 3840×2160</li>
+                            <li>Most modern displays and video content use this ratio</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Why Aspect Ratio Matters</h3>
+                        <ul>
+                            <li><strong>Photography:</strong> Affects composition and print sizes</li>
+                            <li><strong>Video Production:</strong> Determines how content will display on different screens</li>
+                            <li><strong>Web Design:</strong> Crucial for responsive images and layouts</li>
+                            <li><strong>Gaming:</strong> Impacts field of view and display compatibility</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>How to Calculate Aspect Ratio</h3>
+                        <ol>
+                            <li>Start with the width and height measurements</li>
+                            <li>Divide both numbers by their greatest common divisor (GCD)</li>
+                            <li>The resulting numbers form your aspect ratio</li>
+                        </ol>
+                        <div class="example-box">
+                            <p><strong>Example:</strong> 1920×1080</p>
+                            <p>GCD of 1920 and 1080 is 120</p>
+                            <p>1920 ÷ 120 = 16</p>
+                            <p>1080 ÷ 120 = 9</p>
+                            <p>Therefore, the aspect ratio is 16:9</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Common Ratios Section -->
+        <section id="ratios-section" class="content-section hidden">
+            <div class="ratios-container">
+                <div class="ratio-grid">
+                    <div class="ratio-card">
+                        <h3>16:9 (1.78:1)</h3>
+                        <div class="ratio-preview ratio-16-9"></div>
+                        <h4>Widescreen HD</h4>
+                        <ul>
+                            <li>Modern HD TVs</li>
+                            <li>YouTube videos</li>
+                            <li>Common resolutions:</li>
+                            <li>1920×1080 (Full HD)</li>
+                            <li>3840×2160 (4K)</li>
+                        </ul>
+                    </div>
+
+                    <div class="ratio-card">
+                        <h3>4:3 (1.33:1)</h3>
+                        <div class="ratio-preview ratio-4-3"></div>
+                        <h4>Traditional</h4>
+                        <ul>
+                            <li>Classic TV format</li>
+                            <li>Early computer monitors</li>
+                            <li>Common resolutions:</li>
+                            <li>800×600</li>
+                            <li>1024×768</li>
+                        </ul>
+                    </div>
+
+                    <div class="ratio-card">
+                        <h3>21:9 (2.35:1)</h3>
+                        <div class="ratio-preview ratio-21-9"></div>
+                        <h4>Ultrawide</h4>
+                        <ul>
+                            <li>Cinematic format</li>
+                            <li>Ultrawide monitors</li>
+                            <li>Common resolutions:</li>
+                            <li>2560×1080</li>
+                            <li>3440×1440</li>
+                        </ul>
+                    </div>
+
+                    <div class="ratio-card">
+                        <h3>1:1 (1:1)</h3>
+                        <div class="ratio-preview ratio-1-1"></div>
+                        <h4>Square</h4>
+                        <ul>
+                            <li>Social media profiles</li>
+                            <li>Instagram posts</li>
+                            <li>Common sizes:</li>
+                            <li>1080×1080</li>
+                            <li>800×800</li>
+                        </ul>
+                    </div>
+
+                    <div class="ratio-card">
+                        <h3>3:2 (1.5:1)</h3>
+                        <div class="ratio-preview ratio-3-2"></div>
+                        <h4>Photography</h4>
+                        <ul>
+                            <li>DSLR cameras</li>
+                            <li>35mm film</li>
+                            <li>Common resolutions:</li>
+                            <li>3000×2000</li>
+                            <li>6000×4000</li>
+                        </ul>
+                    </div>
+
+                    <div class="ratio-card">
+                        <h3>9:16 (0.5625:1)</h3>
+                        <div class="ratio-preview ratio-9-16"></div>
+                        <h4>Mobile Video</h4>
+                        <ul>
+                            <li>Instagram Stories</li>
+                            <li>TikTok videos</li>
+                            <li>Common resolutions:</li>
+                            <li>1080×1920</li>
+                            <li>720×1280</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools Section -->
+        <section id="tools-section" class="content-section hidden">
+            <div class="tools-container">
+                <h2>Additional Tools</h2>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <h3>Pixel Calculator</h3>
+                        <p>Calculate exact pixel dimensions while maintaining aspect ratio.</p>
+                    </div>
+                    <div class="tool-card">
+                        <h3>Batch Converter</h3>
+                        <p>Convert multiple dimensions at once.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#calculator-section">Calculator</a></li>
+                    <li><a href="#guide-section">Guide</a></li>
+                    <li><a href="#ratios-section">Common Ratios</a></li>
+                    <li><a href="#tools-section">Tools</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p><i class="fas fa-envelope"></i> <i>aspectratiopro@gmail.com</i></p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Stay updated with our latest features!</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-links">
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms-of-use.html">Terms of Use</a>
+                <a href="cookie-policy.html">Cookie Policy</a>
+            </div>
+            <p class="copyright">© 2024 AspectRatio Pro. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookieConsent" class="cookie-consent">
+        <p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.</p>
+        <div class="cookie-buttons">
+            <button id="acceptCookies" class="btn-primary">Accept</button>
+            <button id="declineCookies" class="btn-secondary">Decline</button>
+        </div>
+    </div>
+
+    <script src="js/calculator.js"></script>
+    <script src="js/theme-manager.js"></script>
+    <script src="js/ad-manager.js"></script>
+    <script src="js/analytics.js"></script>
+</body>
+</html>
