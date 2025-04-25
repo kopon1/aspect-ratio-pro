@@ -67,8 +67,14 @@
     </script>
 
     <!-- Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_PUBLISHER_ID"
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXX"
      crossorigin="anonymous"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-XXXXXXXXXXXX",
+            enable_page_level_ads: true
+        });
+    </script>
 </head>
 <body>
     <!-- Header Navigation -->
@@ -102,7 +108,7 @@
 
             <h1>Aspect Ratio Calculator</h1>
 
-            <div class="container">
+    <div class="container">
                 <!-- Left Side Ad -->
                 <div class="ad-container ad-sidebar ad-left">
                     <div id="leftAd" class="ad-slot">
@@ -135,6 +141,8 @@
                                     <option value="em">em</option>
                                 </select>
                             </div>
+                            <small class="input-guide">Enter width to calculate height</small>
+                            <div class="status-message" id="widthStatus"></div>
                         </div>
                         <div class="dimension-input">
         <label for="height">Height:</label>
@@ -146,6 +154,8 @@
                                     <option value="em">em</option>
                                 </select>
                             </div>
+                            <small class="input-guide">Enter height to calculate width</small>
+                            <div class="status-message" id="heightStatus"></div>
                         </div>
                     </div>
                     
@@ -153,6 +163,7 @@
                         <button id="lockRatio" class="toggle-button" title="Lock/Unlock aspect ratio">
                             <i class="fas fa-lock-open"></i> Lock Ratio
                         </button>
+                        <div class="status-message" id="ratioStatus">Ratio is locked</div>
                         <button id="swapDimensions" title="Swap width and height">
                             <i class="fas fa-exchange-alt"></i> Swap
                         </button>
@@ -162,22 +173,30 @@
                     </div>
 
                     <div class="presets">
-                        <h3>Common Ratios:</h3>
+                        <div class="presets-container">
+                            <div class="preset-section">
+                                <h3>Common Ratios</h3>
+                                <div class="status-message" id="presetStatus">Click a ratio to set custom ratio</div>
                         <div class="preset-grid">
-                            <button class="preset" data-ratio="16:9" title="Widescreen TV, YouTube">16:9</button>
-                            <button class="preset" data-ratio="4:3" title="Traditional TV">4:3</button>
-                            <button class="preset" data-ratio="1:1" title="Square">1:1</button>
-                            <button class="preset" data-ratio="21:9" title="Ultrawide">21:9</button>
-                            <button class="preset" data-ratio="3:2" title="Classic Photography">3:2</button>
-                            <button class="preset" data-ratio="9:16" title="Mobile Portrait">9:16</button>
-                        </div>
-                        
-                        <div class="custom-ratio">
-                            <h3>Custom Ratio:</h3>
-                            <div class="custom-ratio-inputs">
-                                <input type="number" id="customWidth" placeholder="Width" min="1">
-                                <span>:</span>
-                                <input type="number" id="customHeight" placeholder="Height" min="1">
+                                    <button class="preset" data-ratio="16:9" title="Widescreen HD - Modern HD TVs, YouTube videos, 1920×1080 (Full HD), 3840×2160 (4K)">16:9</button>
+                                    <button class="preset" data-ratio="4:3" title="Traditional - Classic TV format, Early computer monitors, 800×600, 1024×768">4:3</button>
+                                    <button class="preset" data-ratio="21:9" title="Ultrawide - Cinematic format, Ultrawide monitors, 2560×1080, 3440×1440">21:9</button>
+                                    <button class="preset" data-ratio="1:1" title="Square - Social media profiles, Instagram posts, 1080×1080, 800×800">1:1</button>
+                                    <button class="preset" data-ratio="3:2" title="Photography - DSLR cameras, 35mm film, 3000×2000, 6000×4000">3:2</button>
+                                    <button class="preset" data-ratio="9:16" title="Mobile Video - Instagram Stories, TikTok videos, 1080×1920, 720×1280">9:16</button>
+                                </div>
+                            </div>
+
+                            <div class="divider"></div>
+
+                            <div class="custom-ratio-section">
+                                <h3>Custom Ratio</h3>
+                                <div class="status-message" id="customRatioStatus">Enter your own ratio values</div>
+                                <div class="custom-ratio-inputs">
+                                    <input type="number" id="customWidth" placeholder="Width" min="1">
+                                    <span>:</span>
+                                    <input type="number" id="customHeight" placeholder="Height" min="1">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -190,7 +209,6 @@
                     <div class="result-container">
                         <div class="result-box">
                             <p id="result">Aspect Ratio: -</p>
-                            <p id="simplified">Simplified: -</p>
                             <p id="decimal">Decimal: -</p>
                         </div>
                     </div>
@@ -494,6 +512,13 @@
             </div>
 
             <div class="footer-section">
+                <h3>Support Us</h3>
+                <a href="https://ko-fi.com/aspectratiopro" target="_blank" class="donate-button">
+                    <i class="fas fa-coffee"></i> Buy me a coffee
+                </a>
+            </div>
+
+            <div class="footer-section">
                 <h3>Contact</h3>
                 <p><i class="fas fa-envelope"></i> <i>aspectratiopro@gmail.com</i></p>
             </div>
@@ -510,9 +535,9 @@
 
         <div class="footer-bottom">
             <div class="footer-links">
-                <a href="privacy-policy.html">Privacy Policy</a>
-                <a href="terms-of-use.html">Terms of Use</a>
-                <a href="cookie-policy.html">Cookie Policy</a>
+                <a href="pages/privacy-policy.html">Privacy Policy</a>
+                <a href="pages/terms-of-use.html">Terms of Use</a>
+                <a href="pages/cookie-policy.html">Cookie Policy</a>
             </div>
             <p class="copyright">© 2024 AspectRatio Pro. All rights reserved.</p>
         </div>
