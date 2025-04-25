@@ -17,7 +17,9 @@
   "author": "AspectRatio Pro",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-jsonld": "^2.14.4",
     "@parcel/transformer-sass": "^2.14.4",
+    "@parcel/transformer-webmanifest": "^2.14.4",
     "parcel": "^2.14.4"
   }
 }
