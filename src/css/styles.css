@@ -50,7 +50,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     margin: 0;
     padding: 20px;
     background-color: var(--bg-color);
@@ -898,13 +898,6 @@ button i {
 .calculator-container {
     content-visibility: auto;
     contain-intrinsic-size: auto 500px;
-}
-
-/* Optimize font loading */
-@font-face {
-    font-family: 'Your Main Font';
-    font-display: swap;
-    src: url('/fonts/main-font.woff2') format('woff2');
 }
 
 /* Optimize animations */
