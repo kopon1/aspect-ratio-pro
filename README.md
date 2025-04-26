@@ -1,74 +1,109 @@
-<<<<<<< HEAD
-# Aspect Ratio Calculator
+# AspectRatio Pro - Online Aspect Ratio Calculator
 
-A free online tool for calculating and maintaining image & video aspect ratios. Perfect for photographers, designers, and developers.
+A modern, user-friendly web application for calculating and maintaining aspect ratios for images and videos. Perfect for photographers, designers, and content creators.
 
 ## Features
 
-- Calculate aspect ratios for any dimensions
-- Common preset ratios (16:9, 4:3, 1:1, etc.)
-- Custom ratio support
-- Visual preview of aspect ratios
-- Dark/Light mode support
-- Mobile responsive design
+- **Real-time Calculations**: Instantly calculate dimensions while maintaining aspect ratios
+- **Common Presets**: Quick access to popular aspect ratios (16:9, 4:3, 21:9, etc.)
+- **Custom Ratios**: Input your own custom aspect ratios
+- **Visual Preview**: See how your dimensions look in real-time
+- **Unit Conversion**: Support for pixels, percentages, and em units
+- **Dark/Light Mode**: Comfortable viewing in any environment
+- **Mobile Responsive**: Works perfectly on all devices
 
-## Installation
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+### Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/aspectratio.git
-cd aspectratio
-```
+   ```bash
+   git clone https://github.com/kopon1/aspect-ratio-pro.git
+   cd aspect-ratio-pro
+   ```
 
 2. Install dependencies:
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
-## Development
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-To run the development server:
-```bash
-npm run dev
-```
+The application will be available at `http://localhost:3000`
 
-## Building for Production
+### Building for Production
 
-To build the project for production:
-```bash
-npm run build
-```
+To create a production build:
 
-## Deployment
-
-1. Build the project:
 ```bash
 npm run build
 ```
 
-2. Start the production server:
-```bash
-npm start
+## Project Structure
+
+```
+aspect-ratio-pro/
+├── src/                  # Source files
+│   ├── css/             # Stylesheets
+│   ├── js/              # JavaScript files
+│   ├── pages/           # Additional HTML pages
+│   └── index.html       # Main HTML file
+├── public/              # Static assets
+│   └── images/          # Image assets
+└── dist/                # Production build output
 ```
 
-The application will be available at `http://localhost:3000` by default.
+## Features in Detail
 
-## Environment Variables
+### Calculator Section
+- Input width or height to automatically calculate the other dimension
+- Lock/unlock aspect ratio
+- Swap dimensions with one click
+- Real-time visual preview
+- Support for different unit types
 
-Create a `.env` file in the root directory with the following variables:
-```
-PORT=3000
-NODE_ENV=production
-```
+### Common Ratios
+- 16:9 (Widescreen HD)
+- 4:3 (Traditional)
+- 21:9 (Ultrawide)
+- 1:1 (Square)
+- 3:2 (Photography)
+- 9:16 (Mobile Video)
+
+### Tools Section
+- Pixel Calculator
+- Batch Converter
+- Additional utilities for content creators
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## License
 
-ISC
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-For any questions or support, please contact us at aspectratiopro@gmail.com 
-=======
-# aspect-ratio-pro
-Aspect Ratio Pro: A simple tool that helps users calculate and maintain consistent aspect ratios for their media, ensuring perfect scaling for images, videos, and design layouts.
->>>>>>> 91b73ba8e64da782fc37edadb1777841a6390a5a
+For any questions or support, please contact us at aspectratiopro@gmail.com
+
+## Acknowledgments
+
+- Font Awesome for icons
+- Google Fonts for typography
+- All our contributors and users
+
+---
+© 2025 AspectRatio Pro. All rights reserved.

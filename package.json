@@ -1,10 +1,13 @@
 {
-  "name": "aspectratio",
+  "name": "aspect-ratio-pro",
   "version": "1.0.0",
   "description": "Aspect Ratio Calculator - Free online tool for calculating and maintaining image & video aspect ratios",
   "scripts": {
+    "start": "parcel src/index.html src/pages/*.html",
     "build": "parcel build src/index.html src/pages/*.html --public-url ./",
-    "dev": "parcel src/index.html src/pages/*.html",
+    "clean": "rimraf dist .parcel-cache",
+    "prebuild": "npm run clean",
+    "serve": "serve dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,11 +18,19 @@
     "web tool"
   ],
   "author": "AspectRatio Pro",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@parcel/transformer-jsonld": "^2.14.4",
     "@parcel/transformer-sass": "^2.14.4",
     "@parcel/transformer-webmanifest": "^2.14.4",
-    "parcel": "^2.14.4"
-  }
+    "parcel": "^2.14.4",
+    "rimraf": "^3.0.2",
+    "serve": "^14.2.1"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions",
+    "last 2 Edge versions"
+  ]
 }

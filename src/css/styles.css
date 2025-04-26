@@ -515,6 +515,25 @@ button i {
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--primary-color);
+    cursor: default;
+    user-select: none;
+}
+
+.logo i {
+    transition: transform 0.3s ease;
+}
+
+.logo:hover i {
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
 }
 
 .logo a {
@@ -1405,4 +1424,21 @@ button i {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+}
+
+.bounce-on-hover {
+    transition: transform 0.3s ease;
+}
+
+.bounce-on-hover:hover {
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
 }
