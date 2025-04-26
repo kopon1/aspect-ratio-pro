@@ -1256,7 +1256,7 @@ button i {
     text-decoration: none;
     font-weight: 500;
     transition: all 0.3s ease;
-    margin: 8px 0;
+    margin: 8px 4px;
     box-shadow: 0 2px 4px var(--shadow-color);
     border: none;
     cursor: pointer;
@@ -1278,17 +1278,32 @@ button i {
     transform: scale(1.1);
 }
 
-[data-theme="dark"] .donate-button {
-    background-color: var(--primary-color);
-    color: white;
+.donate-button.buymeacoffee {
+    background-color: #FFDD00;
+    color: #000000;
 }
 
-[data-theme="dark"] .donate-button:hover {
-    background-color: var(--primary-dark);
+.donate-button.buymeacoffee:hover {
+    background-color: #FFE838;
 }
 
-[data-theme="dark"] .donate-button i {
-    color: white;
+.donate-button.buymeacoffee i {
+    color: #000000;
+}
+
+[data-theme="dark"] .donate-button.buymeacoffee {
+    color: #000000;
+}
+
+[data-theme="dark"] .donate-button.buymeacoffee i {
+    color: #000000;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
 }
 
 .lock-btn {
@@ -1365,7 +1380,7 @@ button i {
     text-align: center;
     background-color: var(--status-bg);
     color: var(--text-color);
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--info-border);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
