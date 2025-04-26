@@ -1464,11 +1464,14 @@ button i {
     color: white;
     text-decoration: none;
     border-radius: 4px;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px var(--shadow-color);
 }
 
 .back-button:hover {
-    background-color: var(--primary-color-dark);
+    background-color: var(--primary-light);
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px var(--shadow-color);
 }
 
 .back-button i {
@@ -1477,9 +1480,9 @@ button i {
 
 /* Dark mode styles */
 [data-theme="dark"] .back-button {
-    background-color: var(--primary-color-dark);
+    background-color: var(--primary-color);
 }
 
 [data-theme="dark"] .back-button:hover {
-    background-color: var(--primary-color);
+    background-color: var(--primary-light);
 }
