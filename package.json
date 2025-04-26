@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Aspect Ratio Calculator - Free online tool for calculating and maintaining image & video aspect ratios",
   "scripts": {
-    "start": "parcel src/index.html src/pages/*.html",
-    "build": "parcel build src/index.html src/pages/*.html --public-url ./",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
     "clean": "rimraf dist .parcel-cache",
     "prebuild": "npm run clean",
     "serve": "serve dist",
