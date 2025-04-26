@@ -1450,3 +1450,36 @@ button i {
         transform: translateY(-10px);
     }
 }
+
+.back-button-container {
+    margin-bottom: 2rem;
+}
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: var(--primary-color-dark);
+}
+
+.back-button i {
+    font-size: 0.9rem;
+}
+
+/* Dark mode styles */
+[data-theme="dark"] .back-button {
+    background-color: var(--primary-color-dark);
+}
+
+[data-theme="dark"] .back-button:hover {
+    background-color: var(--primary-color);
+}
