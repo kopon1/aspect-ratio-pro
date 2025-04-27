@@ -249,6 +249,7 @@ button i {
     z-index: 1000;
     margin-bottom: 5px;
     box-shadow: 0 2px 4px var(--shadow-color);
+    pointer-events: none;
 }
 
 .preset-grid {
@@ -270,6 +271,9 @@ button i {
     background-color: var(--container-bg);
     border-radius: 8px;
     box-shadow: 0 2px 4px var(--shadow-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .result-box {
@@ -278,12 +282,14 @@ button i {
     border-radius: 8px;
     display: inline-block;
     min-width: 200px;
+    text-align: center;
 }
 
 #result, #decimal {
     margin: 8px 0;
     font-weight: 500;
     color: var(--text-color);
+    text-align: center;
 }
 
 .tooltip {
@@ -964,31 +970,31 @@ button i {
 
 /* Ad Container Styles */
 .ad-container {
-    margin: 2rem 0;
-    padding: 1rem;
     background: var(--bg-color);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 100%;
-    overflow: hidden;
     position: relative;
     z-index: 1;
 }
 
-.ad-container ins {
+.ad-container::before {
+    content: 'Advertisement';
     display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    min-height: 90px;
+    text-align: center;
+    font-size: 12px;
+    color: var(--text-light);
+    margin-bottom: 5px;
 }
 
+/* Sidebar Ads */
 .ad-sidebar {
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
     width: 160px;
     z-index: 100;
+    padding: 10px;
 }
 
 .ad-left {
@@ -999,35 +1005,39 @@ button i {
     right: 20px;
 }
 
-.container {
-    position: relative;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 20px;
-    z-index: 2;
-}
-
-@media (max-width: 1200px) {
-    .ad-sidebar {
-        display: none;
-    }
-}
-
-/* Bottom Ad Style */
+/* Bottom Ad */
 .ad-bottom {
     margin: 20px auto;
     max-width: 728px;
     clear: both;
+    padding: 15px;
 }
 
-/* Ad Label */
-.ad-container::before {
-    content: 'Advertisement';
-    display: block;
-    text-align: center;
-    font-size: 12px;
-    color: var(--text-light);
-    margin-bottom: 5px;
+/* Content Wrapper */
+.content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Mobile Ad Adjustments */
+@media (max-width: 1200px) {
+    .ad-sidebar {
+        display: none;
+    }
+
+    .content-wrapper {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ad-bottom {
+        margin: 15px auto;
+        padding: 10px;
+    }
 }
 
 /* Custom Ratio Section Styles */
@@ -1092,26 +1102,30 @@ button i {
     z-index: 1000;
     margin-bottom: 5px;
     box-shadow: 0 2px 4px var(--shadow-color);
+    pointer-events: none;
 }
 
 .custom-ratio-inputs {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 .custom-ratio-inputs input {
-    width: 80px;
-    padding: 8px;
-    border: 1px solid var(--primary-faded);
-    border-radius: 4px;
-    background: var(--bg-color);
-    color: var(--text-color);
+    width: 100%;
+    max-width: 120px;
+    text-align: center;
+    padding: 0.75rem;
+    margin: 0;
 }
 
 .custom-ratio-inputs span {
-    color: var(--text-color);
+    display: inline-block;
+    margin: 0;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -1153,24 +1167,16 @@ button i {
     }
 
     .custom-ratio-inputs {
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-        margin-top: 1rem;
+        gap: 0.5rem;
     }
 
     .custom-ratio-inputs input {
-        width: 100%;
-        max-width: 200px;
-        text-align: center;
-        padding: 0.75rem;
+        max-width: 150px;
     }
 
-    .custom-ratio-inputs span {
-        display: block;
-        margin: 0.5rem 0;
-        font-size: 1.2rem;
+    .custom-ratio-section {
+        max-width: 300px;
     }
 
     .divider {
