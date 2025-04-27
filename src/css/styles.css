@@ -1486,3 +1486,88 @@ button i {
 [data-theme="dark"] .back-button:hover {
     background-color: var(--primary-light);
 }
+
+/* Guide Section Styles */
+.ratio-uses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.ratio-use-item {
+    background: var(--container-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ratio-use-item h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.ratio-use-item ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ratio-use-item li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.ratio-use-item li:before {
+    content: "•";
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+}
+
+.platform-guidelines {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.platform-item {
+    background: var(--container-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.platform-item h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.platform-item ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.platform-item li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.platform-item li:before {
+    content: "•";
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .ratio-uses,
+    .platform-guidelines {
+        grid-template-columns: 1fr;
+    }
+}

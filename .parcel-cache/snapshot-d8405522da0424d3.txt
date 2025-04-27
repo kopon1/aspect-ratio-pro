@@ -1,6 +1,6 @@
 6074
 84C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\caniuse-lite\data\regions\MD.js133900279241955485 0
-44C:\Users\ladla\Desktop\aspect-ratio-pro\dist133901311942037676 1
+44C:\Users\ladla\Desktop\aspect-ratio-pro\dist133902130850600012 1
 70C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@msgpackr-extract133901144070249139 1
 57C:\Users\ladla\Desktop\aspect-ratio-pro\package-lock.json133901144071587920 0
 87C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\core\test\fixtures\plugins133900279224199546 1
@@ -170,7 +170,7 @@
 59C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\wrappy133901143537635520 1
 116C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\sample-mdb.txt133900279224704092 0
 90C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\caniuse-lite\data\features\colr-v1.js133900279222408036 0
-54C:\Users\ladla\Desktop\aspect-ratio-pro\src\index.html133901309471352034 0
+54C:\Users\ladla\Desktop\aspect-ratio-pro\src\index.html133902130289522803 0
 73C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\json5\lib\index.d.ts133900279207797857 0
 65C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\resolve-from133900702503156970 1
 81C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\shebang-command\package.json133901143535234827 0
@@ -206,13 +206,13 @@
 90C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\utils\src\progress-message.js133900279219685928 0
 82C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\electron-to-chromium\index.js133900279195620358 0
 85C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\is-fullwidth-code-point\index.js133901143535194691 0
-69C:\Users\ladla\Desktop\aspect-ratio-pro\src\pages\privacy-policy.html133901311630226780 0
+69C:\Users\ladla\Desktop\aspect-ratio-pro\src\pages\privacy-policy.html133901314672791877 0
 82C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\ajv\lib\runtime\ucs2length.ts133901143564608740 0
 91C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\ajv\dist\compile\validate\subschema.js133901143555267437 0
 114C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file\src133900279223726889 1
 79C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\serve-handler\node_modules133901143530227374 1
 77C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\ajv\lib\compile\index.ts133901143559745859 0
-67C:\Users\ladla\Desktop\aspect-ratio-pro\src\pages\terms-of-use.html133901311630226780 0
+67C:\Users\ladla\Desktop\aspect-ratio-pro\src\pages\terms-of-use.html133901314672553666 0
 65C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\is-json\test133900702505349322 1
 84C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\caniuse-lite\data\regions\PF.js133900279245406899 0
 90C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\runtime-rsc\src\RSCRuntime.js133900702503277380 0
@@ -226,7 +226,7 @@
 84C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\caniuse-lite\data\regions\TZ.js133900279250212801 0
 57C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\.bin133901143565472108 1
 79C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\uri-js\dist\es5\uri.all.js133901143550230787 0
-60C:\Users\ladla\Desktop\aspect-ratio-pro\src\js\ad-manager.js133901309977828036 0
+60C:\Users\ladla\Desktop\aspect-ratio-pro\src\js\ad-manager.js133902129699314516 0
 122C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\bin.js133900279212459391 0
 84C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\caniuse-lite\data\regions\AE.js133900279196986509 0
 92C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\uri-js\dist\esnext\schemes\https.js.map133901143552939735 0
@@ -243,7 +243,7 @@
 77C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\watcher\index.js133900279211746752 0
 99C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\posthtml\node_modules\domutils\lib\querying.js133900702505703126 0
 93C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\json-parse-even-better-errors\LICENSE.md133900702503177031 0
-58C:\Users\ladla\Desktop\aspect-ratio-pro\src\css\styles.css133901311538245871 0
+58C:\Users\ladla\Desktop\aspect-ratio-pro\src\css\styles.css133902130106323996 0
 93C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\caniuse-lite\data\features\object-fit.js133900279243871825 0
 78C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\ajv\dist\runtime\quote.js133901143555096875 0
 49C:\Users\ladla\Desktop\aspect-ratio-pro\.cache\97133900431531276835 1
@@ -972,7 +972,7 @@
 73C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\deep-extend\index.js133901143535214761 0
 81C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\fast-deep-equal\package.json133901143545717025 0
 78C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\type-fest\ts41\index.d.ts133900702507619664 0
-73C:\Users\ladla\Desktop\aspect-ratio-pro\dist\aspect-ratio-pro.f5f2d00e.js133901311941857240 0
+73C:\Users\ladla\Desktop\aspect-ratio-pro\dist\aspect-ratio-pro.f5f2d00e.js133902130850452694 0
 97C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\wrap-ansi\node_modules\ansi-styles\readme.md133901143537967555 0
 94C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\cosmiconfig\dist\canUseDynamicImport.d.ts133900702509614395 0
 85C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@swc\helpers\_\_array_with_holes133900702514150396 1
@@ -1604,7 +1604,7 @@
 117C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\serve\node_modules\chalk\source\vendor\supports-color\browser.js133901143546168516 0
 114C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\serve\node_modules\chalk\source\vendor\ansi-styles\index.d.ts133901143552367847 0
 100C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\ajv\dist\vocabularies\validation\limitLength.js133901143554725649 0
-72C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\serve\build\main.js133901224221232877 0
+72C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\serve\build\main.js133901941000118716 0
 63C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\semver\bin133900239233901014 1
 85C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@swc\helpers\_\_get_prototype_of133900702515034196 1
 69C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\semver\functions133900239236833796 1
@@ -2291,7 +2291,7 @@
 110C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file133900279233300467 1
 71C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\onetime\index.d.ts133901143549377962 0
 92C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\ajv\dist\compile\validate\boolSchema.js133901143552137086 0
-65C:\Users\ladla\Desktop\aspect-ratio-pro\dist\favicon.c205ef26.ico133901311940501430 0
+65C:\Users\ladla\Desktop\aspect-ratio-pro\dist\favicon.c205ef26.ico133902130848867934 0
 68C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\onetime\license133901143538716772 0
 113C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@swc\helpers\cjs\_class_static_private_field_destructure.cjs133900702508967346 0
 65C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\once\LICENSE133901143535535820 0
@@ -3144,7 +3144,7 @@
 94C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@zeit\schemas\deployment\config-static.js133901143549357895 0
 69C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\globals\index.js133900702501180437 0
 97C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\caniuse-lite\data\features\viewport-units.js133900279250694390 0
-74C:\Users\ladla\Desktop\aspect-ratio-pro\dist\cookie-policy.28685f14.js.map133901311942010615 0
+74C:\Users\ladla\Desktop\aspect-ratio-pro\dist\cookie-policy.28685f14.js.map133902130850561234 0
 106C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\runtime-js\src\helpers\browser\html-loader.js133900702507411325 0
 73C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\globals\package.json133900702504777416 0
 49C:\Users\ladla\Desktop\aspect-ratio-pro\.cache\42133900431530808060 1
@@ -3448,7 +3448,7 @@
 87C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\cosmiconfig\dist\cacheWrapper.d.ts133900702509584298 0
 91C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\cosmiconfig\dist\cacheWrapper.d.ts.map133900702507459139 0
 85C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\cosmiconfig\dist\cacheWrapper.js133900702501471388 0
-77C:\Users\ladla\Desktop\aspect-ratio-pro\dist\aspect-ratio-pro.f5f2d00e.js.map133901311942010615 0
+77C:\Users\ladla\Desktop\aspect-ratio-pro\dist\aspect-ratio-pro.f5f2d00e.js.map133902130850561234 0
 98C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\cosmiconfig\dist\canUseDynamicImport.d.ts.map133900702507629697 0
 92C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\cosmiconfig\dist\canUseDynamicImport.js133900702502163682 0
 94C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@swc\helpers\_\_ts_generator\package.json133900702515843412 0
@@ -4631,7 +4631,7 @@
 110C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\ajv\dist\vocabularies\applicator\patternProperties.js.map133901143557319055 0
 91C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\ajv\dist\vocabularies\jtd\error.js.map133901143556381493 0
 108C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@swc\helpers\_\_class_apply_descriptor_set\package.json133900702514347122 0
-74C:\Users\ladla\Desktop\aspect-ratio-pro\dist\apple-touch-icon.b08ca087.png133901311941429040 0
+74C:\Users\ladla\Desktop\aspect-ratio-pro\dist\apple-touch-icon.b08ca087.png133902130849940609 0
 89C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\ajv\dist\vocabularies\jtd\index.d.ts133901143559675272 0
 90C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\ajv\dist\vocabularies\jtd\metadata.js133901143554795877 0
 94C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\ajv\dist\vocabularies\jtd\metadata.js.map133901143557006536 0
@@ -5016,7 +5016,7 @@
 89C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@swc\helpers\esm\_to_property_key.js133900702513824255 0
 94C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@swc\helpers\esm\_ts_dispose_resources.js133900702513854353 0
 83C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@swc\helpers\esm\_ts_values.js133900702513904519 0
-71C:\Users\ladla\Desktop\aspect-ratio-pro\dist\favicon-32x32.0eb8ca1c.png133901311940504810 0
+71C:\Users\ladla\Desktop\aspect-ratio-pro\dist\favicon-32x32.0eb8ca1c.png133902130848925699 0
 89C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\transformer-babel\src\jsx.js133900702507289995 0
 100C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\watcher\src\shared\BruteForceBackend.hh133900279207068200 0
 81C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@swc\helpers\esm\_type_of.js133900702513914554 0
@@ -5309,7 +5309,7 @@
 99C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\types-internal\lib\PackageManager.d.ts133900279220107354 0
 96C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\types-internal\lib\PackageName.d.ts133900279220157518 0
 96C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\types-internal\lib\SemverRange.d.ts133900279220207687 0
-50C:\Users\ladla\Desktop\aspect-ratio-pro\dist\pages133901311941922864 1
+50C:\Users\ladla\Desktop\aspect-ratio-pro\dist\pages133902130850484254 1
 125C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.darwin-x64.node133900279220645298 0
 91C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\types-internal\lib\unsafe.d.ts133900279220251013 0
 70C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\types\lib133900279210234157 1
@@ -5419,7 +5419,6 @@
 89C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\transformer-babel\lib\jsx.js133900702507199698 0
 91C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\transformer-babel\lib\types.js133900702507579533 0
 49C:\Users\ladla\Desktop\aspect-ratio-pro\.cache\7e133900431531120577 1
-78C:\Users\ladla\Desktop\aspect-ratio-pro\dist\aspect-ratio-pro.eb4c0cec.css.map133901311942021352 0
 82C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\source-map\index.d.ts133900279224079151 0
 84C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\source-map\package.json133900279217916603 0
 93C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\source-map\parcel_sourcemap_wasm133900279216935933 1
@@ -5670,7 +5669,7 @@
 101C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\feature-flags\test\feature-flags.test.js133900279205713699 0
 89C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\feature-flags\lib\types.d.ts133900279207416417 0
 71C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\events\lib133900279214661267 1
-59C:\Users\ladla\Desktop\aspect-ratio-pro\dist\pages\404.html133901311941862463 0
+59C:\Users\ladla\Desktop\aspect-ratio-pro\dist\pages\404.html133902130850452694 0
 75C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\events\LICENSE133900279211191116 0
 80C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\events\package.json133900279215239351 0
 72C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\@parcel\events\test133900279215117781 1
@@ -5940,20 +5939,21 @@
 60C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\.bin\rc133901143565472108 0
 62C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\.bin\sass133900279302117584 0
 64C:\Users\ladla\Desktop\aspect-ratio-pro\node_modules\.bin\semver133900239251047181 0
-80C:\Users\ladla\Desktop\aspect-ratio-pro\dist\android-chrome-192x192.69e0fc15.png133901311940509871 0
-80C:\Users\ladla\Desktop\aspect-ratio-pro\dist\android-chrome-512x512.8581bc79.png133901311941440778 0
-73C:\Users\ladla\Desktop\aspect-ratio-pro\dist\aspect-ratio-pro.6189c723.js133901311941857240 0
-77C:\Users\ladla\Desktop\aspect-ratio-pro\dist\aspect-ratio-pro.6189c723.js.map133901311942016301 0
-73C:\Users\ladla\Desktop\aspect-ratio-pro\dist\aspect-ratio-pro.809b60f3.js133901311941857240 0
-77C:\Users\ladla\Desktop\aspect-ratio-pro\dist\aspect-ratio-pro.809b60f3.js.map133901311942010615 0
-74C:\Users\ladla\Desktop\aspect-ratio-pro\dist\aspect-ratio-pro.eb4c0cec.css133901311941867518 0
-70C:\Users\ladla\Desktop\aspect-ratio-pro\dist\cookie-policy.28685f14.js133901311941857240 0
-71C:\Users\ladla\Desktop\aspect-ratio-pro\dist\favicon-16x16.33ac1e01.png133901311941429040 0
-55C:\Users\ladla\Desktop\aspect-ratio-pro\dist\index.html133901311941851673 0
-61C:\Users\ladla\Desktop\aspect-ratio-pro\dist\site.webmanifest133901311941857240 0
-69C:\Users\ladla\Desktop\aspect-ratio-pro\dist\pages\cookie-policy.html133901311941768657 0
-70C:\Users\ladla\Desktop\aspect-ratio-pro\dist\pages\privacy-policy.html133901311941851673 0
-68C:\Users\ladla\Desktop\aspect-ratio-pro\dist\pages\terms-of-use.html133901311941857240 0
+80C:\Users\ladla\Desktop\aspect-ratio-pro\dist\android-chrome-192x192.69e0fc15.png133902130848925699 0
+80C:\Users\ladla\Desktop\aspect-ratio-pro\dist\android-chrome-512x512.8581bc79.png133902130849957083 0
+73C:\Users\ladla\Desktop\aspect-ratio-pro\dist\aspect-ratio-pro.6189c723.js133902130850452694 0
+77C:\Users\ladla\Desktop\aspect-ratio-pro\dist\aspect-ratio-pro.6189c723.js.map133902130850581907 0
+73C:\Users\ladla\Desktop\aspect-ratio-pro\dist\aspect-ratio-pro.809b60f3.js133902130850457950 0
+77C:\Users\ladla\Desktop\aspect-ratio-pro\dist\aspect-ratio-pro.809b60f3.js.map133902130850561234 0
+74C:\Users\ladla\Desktop\aspect-ratio-pro\dist\aspect-ratio-pro.db5fc6af.css133902130850463071 0
+78C:\Users\ladla\Desktop\aspect-ratio-pro\dist\aspect-ratio-pro.db5fc6af.css.map133902130850582399 0
+70C:\Users\ladla\Desktop\aspect-ratio-pro\dist\cookie-policy.28685f14.js133902130850452694 0
+71C:\Users\ladla\Desktop\aspect-ratio-pro\dist\favicon-16x16.33ac1e01.png133902130849957083 0
+55C:\Users\ladla\Desktop\aspect-ratio-pro\dist\index.html133902130850457950 0
+61C:\Users\ladla\Desktop\aspect-ratio-pro\dist\site.webmanifest133902130850452694 0
+69C:\Users\ladla\Desktop\aspect-ratio-pro\dist\pages\cookie-policy.html133902130850351679 0
+70C:\Users\ladla\Desktop\aspect-ratio-pro\dist\pages\privacy-policy.html133902130850441728 0
+68C:\Users\ladla\Desktop\aspect-ratio-pro\dist\pages\terms-of-use.html133902130850447395 0
 49C:\Users\ladla\Desktop\aspect-ratio-pro\.cache\00133900431530339266 1
 49C:\Users\ladla\Desktop\aspect-ratio-pro\.cache\01133900431530339266 1
 49C:\Users\ladla\Desktop\aspect-ratio-pro\.cache\04133900431530495545 1
